@@ -1,0 +1,7 @@
+#hero {
+  height: 80vh;
+  background: url("../img/sanitaire/IMG-20200804-WA0036.jpg") center;
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+}

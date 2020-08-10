@@ -344,9 +344,9 @@ ul {
 #hero {
   width: 100%;
   height: 80vh;
-  background: url("../img/elmansouri-dreugrie-carrelage-sanitaire-peinture.jpg")
-    center;
+  background: url("../img/dreugri-decoration/IMG_20200725_104540.jpg") center;
   background-size: cover;
+  background-position: center;
   position: relative;
 }
 
@@ -1575,4 +1575,52 @@ section {
 #footer .social-links a:hover {
   background: #ffce3a;
   text-decoration: none;
+}
+
+/*--------------------------------------------------------------
+# Gallery
+--------------------------------------------------------------*/
+.gallery {
+  overflow: hidden;
+}
+
+.gallery .owl-nav,
+.gallery .owl-dots {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.gallery .owl-item {
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
+}
+
+.gallery .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #e0f4f5 !important;
+}
+
+.gallery .owl-dot.active {
+  background-color: #3fbbc0 !important;
+}
+
+.gallery .gallery-carousel .owl-stage-outer {
+  overflow: visible;
+}
+
+.gallery .gallery-carousel .center {
+  border: 6px solid #3fbbc0;
+  margin: -10px;
+  box-sizing: content-box;
+  padding: 4px;
+  background: #fff;
+  z-index: 1;
+}
+
+.owl-carousel .owl-item img {
+  min-height: 214px;
 }
